@@ -4,7 +4,7 @@ import { useState } from 'react'
 function App() {
 
 
-const url ='https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=5a6167a0a92b9db899444c310fcacc1d'
+ url ='https://api.openweathermap.org/data/2.5/weather?q=agartala&appid=5a6167a0a92b9db899444c310fcacc1d'
 
 
   return (
