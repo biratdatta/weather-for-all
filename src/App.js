@@ -9,6 +9,12 @@ function App() {
 
   return (
     <div className="app">
+      <div className="container">
+       <div className="top">    
+          </div>
+<div className="bottom"></div>
+      </div>
+
  
     </div>
   );
