@@ -3,9 +3,10 @@ import axios from "axios";
 
 function App() {
 
+const [data,setData] = useState({})
+const [location, setLocation] = useState('')
 
 
-  
   //const url ='https://api.openweathermap.org/data/2.5/weather?q=agartala&appid=5a6167a0a92b9db899444c310fcacc1d'
 
   return (
