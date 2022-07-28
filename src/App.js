@@ -13,14 +13,13 @@ const [location, setLocation] = useState('')
 
 
   const searchLocation = (event) => {
-    if(event.key === 'Enter'){
+    if (event.key === 'Enter'){
 axios.get(url).then((resonse) => {
       setData(response.data)
       console.log(response.data)
     })
 
     }
-   
   }
 
   return (
@@ -29,6 +28,9 @@ axios.get(url).then((resonse) => {
         <input 
         value={location}
         onChange={event => setLocation(event.target.value)}
+       onKeyPress={searchLocation}
+
+
         placeholder='Enter Location'
         
         type="text"/>
