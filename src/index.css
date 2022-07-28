@@ -60,6 +60,10 @@ h1{
   padding: 1rem;
 }
 
+
+
+
+
 .app input{
   padding: .7rem 1.5rem;
   border-radius: 25px;
@@ -67,6 +71,13 @@ h1{
   background: rgba(0,0,0,0.15);
 
 }
+
+::placeholder{
+  color: #f8f8f8;
+  
+}
+
+
 
 .container{
   max-width: 700px;
