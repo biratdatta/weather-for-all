@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <div className="top">
           <div className="location">
-            <p>Agartala</p>
+            <p>Dallas    </p>
           </div>
           <div className="temp">
             <h1>60°F</h1>
