@@ -25,6 +25,14 @@ axios.get(url).then((resonse) => {
 
   return (
     <div className="app">
+      <div className="search">
+        <input 
+        value={location}
+        onChange={event => setLocation(event.target.value)}
+        placeholder='Enter Location'
+        
+        type="text"/>
+      </div>
       <div className="container">
         <div className="top">
           <div className="location">
