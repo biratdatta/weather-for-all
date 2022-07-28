@@ -12,12 +12,15 @@ const [location, setLocation] = useState('')
   const url ='https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=5a6167a0a92b9db899444c310fcacc1d'
 
 
-  const searchLocation = () => {
-    
-    axios.get(url).then((resonse) => {
+  const searchLocation = (event) => {
+    if(event.key === 'Enter'){
+axios.get(url).then((resonse) => {
       setData(response.data)
       console.log(response.data)
     })
+
+    }
+   
   }
 
   return (
